@@ -59,7 +59,7 @@
                     </svg>
                 </button>
                 <ul class="list mobile-list">
-                    <li class="mobile-nav-item"><a href="" class="mobile-nav-link link">Studio</a></li>
+                    <li class="mobile-nav-item "><a href="" class="mobile-nav-link link current">Studio</a></li>
                     <li class="mobile-nav-item"><a href="" class="mobile-nav-link link">Portfolio</a></li>
                     <li class="mobile-nav-item"><a href="" class="mobile-nav-link link">Contacts</a></li>
                 </ul>
@@ -115,11 +115,11 @@
         </section>
 
         <!--section2-->
-        <!-- <section class="second-section padding-section">
+        <section class="padding-section">
             <div class="container">
                 <h2 class="hidden-title" hidden>Features</h2>
                 <ul class="list main-section-list">
-                    <li class="main-section-item-2">
+                    <li class="main-section-item-feature">
                         <div class="icons-section-two">
                             <svg class="icon-style" width="64" height="64">
                                 <use class="icon" href="./images/icon.svg#antenna"></use>
@@ -131,7 +131,7 @@
                             the perfect and creative solution.
                         </p>
                     </li>
-                    <li class="main-section-item-2">
+                    <li class="main-section-item-feature">
                         <div class="icons-section-two">
                             <svg class="icon-style" width="64" height="64">
                                 <use href="./images/icon.svg#clock"></use>
@@ -143,7 +143,7 @@
                             within the shortest possible time.
                         </p>
                     </li>
-                    <li class="main-section-item-2">
+                    <li class="main-section-item-feature">
                         <div class="icons-section-two">
                             <svg class="icon-style" width="64" height="64">
                                 <use href="./images/icon.svg#diagram"></use>
@@ -155,7 +155,7 @@
                             growth opportunities and minimize risk.
                         </p>
                     </li>
-                    <li class="main-section-item-2">
+                    <li class="main-section-item-feature">
                         <div class="icons-section-two">
                             <svg class="icon-style" width="64" height="64">
                                 <use href="./images/icon.svg#astronaut"></use>
@@ -169,31 +169,57 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!--section3-->
-        <!-- <section class="padding-section-three">
+        <section class="padding-section-three">
             <div class="container">
                 <h2 class="main-section-title">What are we doing</h2>
                 <ul class="list main-section-list">
+
+
                     <li class="main-section-item-3">
-                        <img class="third-section-photo" src="./images/img1.jpg" alt="computer photo" width="360" />
+                        <picture>
+                            <source media="(min-width: 1158px)"
+                                srcset="./images/work/img1.jpg 1x, ./images/work/img1-2x.jpg 2x" type="image/jpg" />
+                            <img class="third-section-photo" src="./images/work/img1.jpg" alt="computer photo"
+                                width="360" />
+                        </picture>
                     </li>
                     <li class="main-section-item-3">
-                        <img class="third-section-photo" src="./images/img2.jpg" alt="telephone photo" width="360" />
+                        <picture>
+                            <source media="(min-width: 1158px)"
+                                srcset="./images/work/img2.jpg 1x, ./images/work/img2-2x.jpg 2x" type="image/jpg" />
+                            <img class="third-section-photo" src="./images/work/img2.jpg" alt="computer photo"
+                                width="360" />
+                        </picture>
+
                     </li>
                     <li class="main-section-item-3">
-                        <img class="third-section-photo" src="./images/img3.jpg" alt="Technologies" width="360" />
+                        <picture>
+                            <source media="(min-width: 1158px)"
+                                srcset="./images/work/img3.jpg 1x, ./images/work/img3-2x.jpg 2x" type="image/jpg" />
+                            <img class="third-section-photo" src="./images/work/img3.jpg" alt="computer photo"
+                                width="360" />
+                        </picture>
+
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!--section4-->
-        <!-- <section class="fourth-section padding-section">
+        <section class="fourth-section padding-section">
             <div class="container">
                 <h2 class="main-section-title">Our Team</h2>
-                <ul class="list main-section-list">
+                <ul class="list team-section-list">
                     <li class="main-section-item">
-                        <img class="fourth-section-photo" src="./images/img-3.jpg" alt="Product Designer" width="264" />
+                        <picture>
+                            <source
+                                srcset="./images/command/mark-guetto-1x.jpg 1x ,./images/command/mark-guetto-2x.jpg  2x"
+                                type="image/jpg" />
+                            <img class="third-section-photo" src="./images/command/mark-guetto-1x.jpg"
+                                alt="computer photo" width="264" />
+                        </picture>
+
                         <div class="section-wrapper">
                             <h3 class="section-title-fourth">Mark Guerrero</h3>
                             <p class="main-description-fourth">Product Designer</p>
@@ -230,8 +256,13 @@
                         </div>
                     </li>
                     <li class="main-section-item">
-                        <img class="fourth-section-photo" src="./images/img-2.jpg" alt="Frontend Developer"
-                            width="264" />
+                        <picture>
+                            <source srcset="./images/command/tom-ford-1x.jpg 1x, ./images/command/tom-ford-2x.jpg  2x"
+                                type="image/jpg" />
+                            <img class="third-section-photo" src="./images/command/tom-ford-1x.jpg"
+                                alt="Frontend Developer" width="264" />
+                        </picture>
+
                         <div class="section-wrapper">
                             <h3 class="section-title-fourth">Tom Ford</h3>
                             <p class="main-description-fourth">Frontend Developer</p>
@@ -268,7 +299,14 @@
                         </div>
                     </li>
                     <li class="main-section-item">
-                        <img class="fourth-section-photo" src="./images/img-1.jpg" alt="Marketing" width="264" />
+                        <picture>
+                            <source
+                                srcset="./images/command/camilla-garsia-1x.jpg 1x, ./images/command/camilla-garcia-2x.jpg 2x"
+                                type="image/jpg" />
+                            <img class="third-section-photo" src="./images/command/camilla-garsia-1x.jpg"
+                                alt="Marketing" width="264" />
+                        </picture>
+
                         <div class="section-wrapper">
                             <h3 class="section-title-fourth">Camila Garcia</h3>
                             <p class="main-description-fourth">Marketing</p>
@@ -305,7 +343,13 @@
                         </div>
                     </li>
                     <li class="main-section-item">
-                        <img class="fourth-section-photo" src="./images/img.jpg" alt="UI Designer" width="264" />
+                        <picture>
+                            <source srcset="./images/command/daniel-1x.jpg 1x, ./images/command/daniel-2x.jpg 2x"
+                                type="image/jpg" />
+                            <img class="third-section-photo" src="./images/command/daniel-1x.jpg" alt="UI Designer"
+                                width="264" />
+                        </picture>
+
                         <div class="section-wrapper">
                             <h3 class="section-title-fourth">Daniel Wilson</h3>
                             <p class="main-description-fourth">UI Designer</p>
@@ -343,7 +387,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- <section class="five-section">
             <div class="container">
                 <h2 class="five-section-title">Customers</h2>
@@ -395,7 +439,7 @@
         </section> -->
     </main>
     <!--footer-->
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container footer-container">
             <div class="footer-left-side">
                 <a class="link logo logo-footer" href="./index.html">Web<span
@@ -459,7 +503,7 @@
             </div>
         </div>
 
-    </footer> -->
+    </footer>
     <!-- MODAL-WINDOW -->
     <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
