@@ -673,15 +673,18 @@ hero-section-container {
 }
 .five-section-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  flex-direction: row;
 }
 .five-section-list-item {
-  width: calc((100%-120px) / 6);
   height: 88px;
+  align-items: center;
+  width: calc((100%-16px) / 2);
 }
 .five-section-item {
-  width: 100%;
-  height: 100%;
+  max-width: 190px;
+  height: 88px;
   border: 1px solid var(--five-section-icon);
   border-radius: 4px;
   display: flex;
@@ -701,6 +704,37 @@ hero-section-container {
 }
 .five-section-icons {
   fill: currentColor;
+}
+@media screen and (min-width: 768px) {
+  .five-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 552px;
+  }
+  .five-section-list-item {
+    max-width: 168px;
+    height: 88px;
+    align-items: center;
+    width: calc((100%-24px) / 3);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .five-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1128px;
+  }
+  .five-section-list-item {
+    height: 88px;
+    align-items: center;
+    width: calc((100%-120px) / 6);
+  }
 }
 /* five-section========= */
 /* =======footer====== */
